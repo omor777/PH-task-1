@@ -185,3 +185,103 @@ body {
   cursor: pointer;
 }
 
+/* footer style */
+
+#footer {
+  background: #151414;
+  padding: 130px 0;
+}
+#footer .footer-section {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer-section .left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#footer .footer-section .left-col .title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+#footer .footer-section .left-col .text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 485px;
+}
+
+#footer .footer-section .left-col :nth-child(2) {
+  margin-bottom: 8px;
+}
+
+#footer .footer-section .left-col ul {
+  margin-top: 16px;
+  display: flex;
+  gap: 20px;
+}
+#footer .footer-section .left-col li {
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#footer .footer-section .left-col li i {
+  font-size: 24px;
+}
+#footer .footer-section .left-col li .fa-twitter {
+  color: #1da1f2;
+}
+#footer .footer-section .left-col li .fa-facebook-f {
+  color: #316ff6;
+}
+#footer .footer-section .left-col li .fa-youtube {
+  color: #cd201f;
+}
+
+#footer .footer-section .right-col {
+}
+#footer .footer-section .right-col h4 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+#footer .footer-section .right-col input[type="email"] {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  max-width: 325px;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 21px;
+  margin-top: 31px;
+  outline: none;
+}
+#footer .footer-section .right-col form {
+  display: flex;
+  flex-direction: column;
+}
+#footer .footer-section .right-col input[type="submit"] {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 36px;
+  border-radius: 8px;
+  background: #005fac;
+  cursor: pointer;
+  border: 0;
+  margin-top: 16px;
+  align-self: start;
+}
+
