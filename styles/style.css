@@ -56,6 +56,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: 0.2s linear;
+  border: 1px solid transparent;
 }
 
 .contact-us-btn:hover {
@@ -75,8 +76,8 @@ body {
 }
 
 #previous-year .content {
-    max-width: 416px;
-    margin-top: 120px;
+  max-width: 416px;
+  margin-top: 120px;
 }
 
 #previous-year .section-title {
@@ -107,5 +108,47 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  
 }
+
+/* my plans section */
+#plans {
+  margin-top: 100px;
+}
+#plans .section-title {
+  margin-bottom: 50px;
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+#plans .my-plans {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#plans .plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#plans .plans .plan {
+}
+#plans .plans .plan img {
+  display:block;
+  margin: 0 auto;
+}
+#plans .plans .plan h4 {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+#plans .plans .plan p {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
