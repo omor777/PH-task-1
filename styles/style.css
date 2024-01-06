@@ -21,10 +21,10 @@ body {
 }
 
 .hero > section {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    padding: 216px 230px 166px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 216px 230px 166px 0;
 }
 
 .hero > section > h1 {
@@ -59,7 +59,53 @@ body {
 }
 
 .contact-us-btn:hover {
-    background-color: #67baff;
-    color: #fff;
-    border: 1px solid transparent;
+  background-color: #67baff;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+/* previous year section */
+
+#previous-year {
+  width: 1072px;
+  margin: 140px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#previous-year .content {
+    max-width: 416px;
+    margin-top: 120px;
+}
+
+#previous-year .section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+#previous-year .section-title + p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+#previous-year .previous-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#previous-year .previous-info span:first-child {
+  color: #16d887;
+  font-size: 24px;
+}
+#previous-year .previous-info span:last-child {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  
 }
