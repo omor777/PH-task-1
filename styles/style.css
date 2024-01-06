@@ -134,7 +134,7 @@ body {
 #plans .plans .plan {
 }
 #plans .plans .plan img {
-  display:block;
+  display: block;
   margin: 0 auto;
 }
 #plans .plans .plan h4 {
@@ -150,5 +150,38 @@ body {
   font-size: 25px;
   font-weight: 500;
   margin-top: 16px;
+}
+/* positive section */
+
+#positive {
+  margin: 130px 0;
+}
+#positive .positive-section {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  /* background-image: ; */
+  background-repeat: no-repeat;
+  padding: 60px 64px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../images/watch.png");
+}
+#positive .positive-section h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 459px;
+}
+#positive .positive-section button {
+  padding: 21px 36px;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  margin-top: 24px;
+  cursor: pointer;
 }
 
